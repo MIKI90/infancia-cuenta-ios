@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<HTML lang="es">
+<head>	
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+ <title>La Infancia Cuenta.</title>
+ <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+  <script src="phonegap.js"></script>
+  <script src="cordova.js"></script>
+  <!--script type="text/javascript" src="js/plugins/SocialSharing.js"></script-->
+  <script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
+  <script type="text/javascript" src="js/jquery.mobile-1.4.2.min.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.2.min.css" />
+  <link rel="stylesheet" href="css/estilo.css" />
+</head>
+<body>
+  <div id="top_menu">
+  <h1>Red por los Derechos de la Infancia en México.</h1>
+  <h2> Consulta de Datos.</h2>
+  <p> Selecciona Categoria:</p>
+    <select id="query-0">
+      <option value='0'>ICMBD</option>
+      <option value='1'>Demográfico</option>
+      <option value='2'>Ciudadanía</option>
+      <option value='3'>Salud</option>
+      <option value='4'>Educación</option>
+      <option value='5'>Economía</option>
+      <option value='6'>Seguridad</option>
+      <option value='7'>Habitat</option>
+      <option value='8'>Legislativo</option>
+    </select>
+  <p> Selecciona tipo de Dato:</p>
+    <select id='query-1' > </select>
+ <p> Selecciona Año:</p>
+     <select id='query-2'>
+        <option value='2000'>2000</option>
+        <option value='2001'>2001</option>
+        <option value='2002'>2002</option>
+        <option value='2003'>2003</option>
+        <option value='2004'>2004</option>
+        <option value='2005'>2005</option>
+        <option value='2006'>2006</option>
+        <option value='2007'>2007</option>
+        <option value='2008'>2008</option>
+        <option value='2009'>2009</option>
+        <option value='2010'>2010</option>
+        <option value='2011'>2011</option>
+        <option value='2012'>2012</option>
+        <option value='2013'>2013</option>
+        <option value='2014'>2014</option>
+        <option value='1990'>1990</option>
+        <option value='1991'>1991</option>
+        <option value='1992'>1992</option>
+        <option value='1993'>1993</option>
+        <option value='1994'>1994</option>
+        <option value='1995'>1995</option>
+        <option value='1996'>1996</option>
+        <option value='1997'>1997</option>
+        <option value='1998'>1998</option>
+        <option value='1999'>1999</option>
+     </select>
+     </br>
+     <div id="followingBallsG">
+      <div id="followingBallsG_1" class="noAnimation"></div>
+      <div id="followingBallsG_2" class="noAnimation"></div>
+      <div id="followingBallsG_3" class="noAnimation"></div>
+      <div id="followingBallsG_4" class="noAnimation"></div>
+     </div>
+     </br>
+     <!--<button onclick="window.plugins.socialsharing.share('Message only')">message only</button>-->
+     <div id="Botones"></div> 
+     <div id="message"> </div>
+  </div>
+  <div id="info-link"><a href="#" onclick="window.open('http://www.derechosinfancia.org.mx/ICM_2013.pdf', '_system');"> Infografías de estados de Infancia Cuenta.(pdf)</a>
+  </br>
+  <div id="querytable"></div>
+  <div id="chart"></div>  
+
+</body>
+</html>
