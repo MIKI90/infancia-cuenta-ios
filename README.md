@@ -1,7 +1,7 @@
 infancia-cuenta-ios
 ===================
 
-Proyecto Cordova de la aplicacion html5 para iOS.
+Proyecto Cordova de la aplicación html5 para iOS.
 
 Cordova 3.4.0
 
@@ -11,7 +11,7 @@ Esta aplicación se encuentra realizada en html5 y se compilo con Apache Cordova
 
 PROYECTO
 
-La ubicación  / platforms / ios / HelloCordova.xcodeproj   contiene un projecto que se ejecuta en xcode.
+La ubicación  / platforms / ios / HelloCordova.xcodeproj   contiene un proyecto que se ejecuta en xcode.
 
 La ubicación www contiene el proyecto html5.
 
