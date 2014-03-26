@@ -10,6 +10,7 @@ Aplicación para la visualización de datos abiertos sobre la población infanti
 Esta aplicación se encuentra realizada en html5 y se compilo con Apache Cordova (Phonegap) para dispositivos iOS
 
 PROYECTO
+Para probar la aplicación debe descargar todo el proyecto del branch.
 
 La ubicación  / platforms / ios / HelloCordova.xcodeproj   contiene un proyecto que se ejecuta en xcode.
 
